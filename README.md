@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# website (earlier personal site)
 
-## Getting Started
+Earlier personal site while I was learning Next.js and Tailwind. Replaced by [vincelapore-dev](https://github.com/vincelapore/vincelapore-dev) for hiring links.
 
-First, run the development server:
+**Historical URL:** [vincelapore-website.vercel.app](https://vincelapore-website.vercel.app) (Vercel currently returns deployment not found)
+
+## Overview
+
+Practice portfolio with a loading screen, dark mode toggle, and Work / Gallery / About nav. A lot of the copy is still placeholder. Keep this repo for history; point employers at **vincelapore-dev** instead.
+
+## What's in the repo
+
+- Loading screen into a large-type landing page
+- Dark mode and mobile nav
+- Routes for work, gallery, about (plus older stubs under `src/app`: contact, resume, play)
+
+## Tech stack
+
+- Next.js (App Router), React, TypeScript, Tailwind CSS
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Author
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vince Lapore · [current portfolio](https://vincelapore-dev.vercel.app) · Brisbane, AU
